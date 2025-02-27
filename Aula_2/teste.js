@@ -2,7 +2,7 @@ let frutas = ['banana', 'maça', 'laranja', 'uva', 'melancia'];
 // let novo = frutas.slice(2, 4);
 // console.log(novo);
 
-frutas.sort();
+//frutas.sort();
 
 // let frutaTirada = frutas.shift();
 // //console.log(frutas);
@@ -24,3 +24,5 @@ frutas.sort();
 
 // let myArray = homens.concat(mulheres);
 // console.log(myArray.sort());
+
+console.log(...frutas);
