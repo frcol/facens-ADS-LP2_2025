@@ -1,0 +1,37 @@
+h1 {
+    color: purple;
+}
+
+p {
+    background-color: lightcoral;
+}
+
+.myClass {
+    color: rgb(8, 0, 255);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+
+ul {
+    color: coral;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+#a1 {
+    color: yellow;
+    background-color: black;
+}
+
+img {
+    width: 200px;
+    border: 3px solid blue;
+    border-radius: 50%;
+}
+
+.jersey {
+    font-family: "Jersey 10", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 50px;
+  }
+  
