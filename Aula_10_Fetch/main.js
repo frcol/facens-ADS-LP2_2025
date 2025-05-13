@@ -34,12 +34,27 @@
 
 let file = "https://68228280b342dce8004e75f0.mockapi.io/cliente";
 
-fetch(file)
-.then(response => response.json())
-.then(data => {
-    let ol = document.querySelector("ol");
+// fetch(file)
+// .then(response => response.json())
+// .then(data => {
+//     let ol = document.querySelector("ol");
 
-    for (let pessoa of data) {
-        ol.innerHTML += `<li style="color: blue;">${pessoa.name} (${pessoa.idade})</li>`;
-    }
-});
+//     for (let pessoa of data) {
+//         ol.innerHTML += `<li style="color: blue;">${pessoa.name} (${pessoa.idade})</li>`;
+//     }
+// })
+// .catch(error => console.error(erro));
+
+let pessoa = {
+    name: "Spider Man",
+    idade: 45
+};
+
+fetch(file, {
+    method: "POST",
+    headers: {'Content-Type': 'application/json'},
+    body: JSON.stringify(pessoa)
+})
+.then(response => response.json())
+.then(data => console.log(data))
+.catch(erro => console.log(error));
