@@ -1,0 +1,12 @@
+[
+    {
+        "nome": "Darth Vader",
+        "idade": 115,
+        "cidade": "Estrela da Morte"
+    },
+    {
+        "nome": "Spider Man",
+        "idade": 82,
+        "cidade": "Los Angeles"
+    }
+]
