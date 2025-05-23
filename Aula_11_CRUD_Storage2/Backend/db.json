@@ -1,0 +1,30 @@
+{
+  "produtos": [
+    {
+      "nome": "Calça Jeans",
+      "preco": 120,
+      "id": "2"
+    },
+    {
+      "id": "3",
+      "nome": "Tênis",
+      "preco": 200
+    },
+    {
+      "id": "4",
+      "nome": "Boné",
+      "preco": 30
+    },
+    {
+      "id": "cea0",
+      "nome": "TV Preto e branco",
+      "preco": 3500
+    }
+  ],
+  "Pessoas": {
+    "id": "1",
+    "nome": "Lucas",
+    "idade": 20,
+    "email": "asdasd@asdasda.com"
+  }
+}
